@@ -1,0 +1,75 @@
+/* Общие стили страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Автоматические отступы для центрирования */
+    background-color: #fff; /* Фон контейнера */
+    padding: 20px;
+    border-radius: 8px; /* Скругление углов контейнера */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Тень контейнера для лучшей видимости на странице */
+}
+
+h1, h2 {
+    color: #5a5a5a;
+}
+
+/* Стилизация списка контактов */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Стилизация кнопок */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Стилизация форм */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 22px);
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
